@@ -71,8 +71,7 @@ NERSC Perlmutter:
 | Script Name | Description | How to Run |
 | --- | --- | --- |
 | `create_spinup_case.sh` | Script to run the first part of my experiment (spinup) | `./create_spinup_case.sh` |
-| `create_exp_case.sh` | Script to run the last part of my experiment (control run and six sensitivity runs with increased thermal inertia of the imperious
-urban land) | `./create_exp_case.sh` |
+| `create_exp_case.sh` | Script to run the last part of my experiment (control run and six sensitivity runs with increased thermal inertia of the imperious urban land) | `./create_exp_case.sh` |
 
 5. Download the output data from my experiment [Output data](#output-data)
 6. Run the following scripts in the `workflow` directory for post-processing my outputs.
