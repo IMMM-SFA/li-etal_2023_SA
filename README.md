@@ -42,19 +42,19 @@ https://svn-ccsm-inputdata.cgd.ucar.edu/trunk/inputdata/
 
 Perlmutter: 
 
-/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof
+/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof/
 
-/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform
+/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform/
 
-/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform2
+/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform2/
 
-/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform3
+/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform3/
 
-/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform4
+/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform4/
 
-/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform5
+/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform5/
 
-/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform6
+/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform6/
 
 ## Contributing modeling software
 | Model | Version | Repository Link | DOI |
