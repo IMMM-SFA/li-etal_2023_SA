@@ -42,13 +42,19 @@ https://svn-ccsm-inputdata.cgd.ucar.edu/trunk/inputdata/
 
 Perlmutter: 
 
-/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof/
-/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform/
-/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform2/
-/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform3/
-/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform4/
-/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform5/
-/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform6/
+/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof
+
+/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform
+
+/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform2
+
+/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform3
+
+/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform4
+
+/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform5
+
+/global/cfs/cdirs/m2702/wangly/li-etal_2023_SA/urban_I2000Clm50Sp_f09_g17_regular_roof_urbuniform6
 
 ## Contributing modeling software
 | Model | Version | Repository Link | DOI |
@@ -57,24 +63,25 @@ Perlmutter:
 
 ## Reproduce my experiment
 
-1. Install the software components required to conduct the experiement from [Contributing modeling software](#contributing-modeling-software). The detailed download instructions are also available online https://www.cesm.ucar.edu/models/cesm2/release_download.html.
+1. Install the software components required to conduct the experiment from [Contributing modeling software](#contributing-modeling-software). The detailed download instructions are also available online https://www.cesm.ucar.edu/models/cesm2/release_download.html
 2. Download and install the supporting input data required to conduct the experiement from [Input data](#input-data)
 3. Create the surface data input for the uniform city simulations
 
 | Script Name | Description | How to Run |
 | --- | --- | --- |
 | `surfdata_uniform_urban1.ncl` | Script to generate the uniform city surfdata | `ncl surfdata_uniform_urban1.ncl` |
-| `surfdata_uniform_urban2.ncl` | Script to generate the uniform city surfdata by multiplying the heat capacity and thermal conductivity by factors of 2, 5, 10, 20, and 50| `ncl surfdata_uniform_urban2.ncl` |
+| `surfdata_uniform_urban2.ncl` | Script to generate the uniform city surfdata by multiplying the heat capacity and thermal conductivity by factors of 2, 5, 10, 20 and 50| `ncl surfdata_uniform_urban2.ncl` |
 
 4. Run the following scripts in the `workflow` directory to re-create this experiment:
 
 | Script Name | Description | How to Run |
 | --- | --- | --- |
 | `create_spinup_case.sh` | Script to run the first part of my experiment (spinup) | `./create_spinup_case.sh` |
-| `create_exp_case.sh` | Script to run the last part of my experiment (control run and five additional sensitivity runs) | `./create_exp_case.sh` |
+| `create_exp_case.sh` | Script to run the last part of my experiment (control run and six sensitivity runs with increased thermal inertia of the imperious
+urban land) | `./create_exp_case.sh` |
 
 5. Download the output data from my experiment [Output data](#output-data)
-6. Run the following scripts in the `workflow` directory for post-processing my outputs
+6. Run the following scripts in the `workflow` directory for post-processing my outputs.
 
 | Script Name | Description | How to Run |
 | --- | --- | --- |
