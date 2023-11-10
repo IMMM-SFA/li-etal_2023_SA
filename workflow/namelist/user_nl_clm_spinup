@@ -1,0 +1,45 @@
+!----------------------------------------------------------------------------------
+! Users should add all user specific namelist changes below in the form of 
+! namelist_var = new_namelist_value 
+!
+! EXCEPTIONS: 
+! Set use_cndv           by the compset you use and the CLM_BLDNML_OPTS -dynamic_vegetation setting
+! Set use_vichydro       by the compset you use and the CLM_BLDNML_OPTS -vichydro           setting
+! Set use_cn             by the compset you use and CLM_BLDNML_OPTS -bgc  setting
+! Set use_crop           by the compset you use and CLM_BLDNML_OPTS -crop setting
+! Set spinup_state       by the CLM_BLDNML_OPTS -bgc_spinup      setting
+! Set irrigate           by the CLM_BLDNML_OPTS -irrig .true.    setting
+! Set co2_ppmv           with CCSM_CO2_PPMV                      option
+! Set dtime              with L_NCPL                             option
+! Set fatmlndfrc         with LND_DOMAIN_PATH/LND_DOMAIN_FILE    options
+! Set finidat            with RUN_REFCASE/RUN_REFDATE/RUN_REFTOD options for hybrid or branch cases
+!                        (includes $inst_string for multi-ensemble cases)
+!                        or with CLM_FORCE_COLDSTART to do a cold start
+!                        or set it with an explicit filename here.
+! Set maxpatch_glcmec    with GLC_NEC                            option
+! Set glc_do_dynglacier  with GLC_TWO_WAY_COUPLING               env variable
+!----------------------------------------------------------------------------------
+building_temp_method = 1
+white_roof_albedo = 0.50
+white_roof_fraction = 0.00
+green_roof_fraction = 0.00
+green_roof_irrigation = .false.
+green_roof_soil_global_uniform = .true.
+green_roof_THU_test  = .false.
+green_roof_albedo = 0.3
+green_roof_emissivity = 0.95
+green_roof_fmax = 0.72
+green_roof_slope = 0.2
+green_roof_rsmax = 5000
+green_roof_rsmin = 180
+green_roof_lai = 3
+green_roof_gd = 0.03
+green_roof_pct_clay = 22
+green_roof_pct_sand = 41
+green_roof_watsat = 0.36
+green_roof_watfc = 0.31
+green_roof_watwilt = 0.18
+green_roof_bsw = 2.33
+green_roof_sucsat = 500.0
+green_roof_xksat = 0.117
+green_roof_soil_depth = 0.2
