@@ -74,5 +74,5 @@ NERSC Perlmutter:
 | `create_exp_case.sh` | Script to run the last part of my experiment (control run and six sensitivity runs with increased thermal inertia of the imperious urban land) | `./create_exp_case.sh` |
 
 ## Reproduce my figures
-Use the scripts found in the `figures` directory to post-process my outputs and reproduce the figures used in this publication. See details in the README document in the `figures` directory.
+Use the scripts found in the `figures` directory to post-process my outputs and reproduce the figures used in this publication. See details in the Readme_Persistent_Urban_Heat.docx document in the `figures` directory.
 
