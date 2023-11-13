@@ -73,16 +73,6 @@ NERSC Perlmutter:
 | `create_spinup_case.sh` | Script to run the first part of my experiment (spinup) | `./create_spinup_case.sh` |
 | `create_exp_case.sh` | Script to run the last part of my experiment (control run and six sensitivity runs with increased thermal inertia of the imperious urban land) | `./create_exp_case.sh` |
 
-5. Download the output data from my experiment [Output data](#output-data)
-6. Run the following scripts in the `workflow` directory for post-processing my outputs.
-
-| Script Name | Description | How to Run |
-| --- | --- | --- |
-| `xxx` | Script for post-processing CLMU outputs | `xxx` |
-
 ## Reproduce my figures
-Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
+Use the scripts found in the `figures` directory to post-process my outputs and reproduce the figures used in this publication. See details in the README document in the `figures` directory.
 
-| Script Name | Description | How to Run |
-| --- | --- | --- |
-| `xxx` | Script to generate my figures | `xxx` |
