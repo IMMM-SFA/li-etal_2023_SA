@@ -63,7 +63,7 @@ mask_p_AC_relocation((values_get_size(1)/2+1):values_get_size(1),:) = mask_p_AC_
 
 mask_p_AC_logical = mask_p_AC_relocation==1;
 
-[h, x_return, y_return] = stipple(xx, yy,mask_p_AC_logical,'density',300);
+[h, x_return, y_return] = stipple(xx, yy,mask_p_AC_logical,'density',150);
 
 m_scatter(x_return,y_return, 20,'.','MarkerEdgecolor','k')
 

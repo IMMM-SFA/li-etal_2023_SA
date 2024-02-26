@@ -35,7 +35,6 @@ for i = 1: rows
          if ~isnan(TSA_U(i,j,1)) && ~isnan(TSA_R(i,j,1))
 
              %% detrend the data
-
              TSA_U_detrend_linear(i,j,:) = detrend(squeeze(TSA_U(i,j,:)),'linear');
              TSA_R_detrend_linear(i,j,:) = detrend(squeeze(TSA_R(i,j,:)),'linear');
 

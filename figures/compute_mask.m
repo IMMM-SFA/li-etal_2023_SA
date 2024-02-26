@@ -20,8 +20,6 @@ mask_rural_temp = nan(size(TSA_R(:,:,1)));
 mask_rural_temp(~isnan(TSA_R(:,:,1))) = 1;
 mask_rural = repmat(mask_rural_temp, 1, 1, days);
 
-% sum(~isnan(mask_rural_temp(:))) = 15277
-
 % display_map(mask_rural_temp,1)
 
 %%
