@@ -1,6 +1,6 @@
 _your zenodo badge here_
 
-# li-etal_2023
+# li-etal_2023_SA
 
 **Persistent Urban Heat**
 
