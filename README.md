@@ -1,4 +1,4 @@
-_your zenodo badge here_
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10710139.svg)](https://doi.org/10.5281/zenodo.10710139)
 
 # li-etal_2023_SA
 
